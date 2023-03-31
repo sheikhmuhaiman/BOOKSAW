@@ -1,0 +1,1054 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F3F2EC;
+}
+.left-side a{
+    font-size: 1.2em;
+    color: #9f9f9f;
+    transition: all 0.2s ease;
+}
+.left-side a:hover{
+    transform: translateY(-2px);
+    color: #74642F;
+}
+
+.right-side a{
+    text-decoration: none;
+    font-size: 1em;
+    color: #9f9f9f;
+    transition: all 0.2s ease;
+}
+.right-side a:hover{
+    transform: translateY(-2px);
+    color: #74642F;
+}
+.right-side .link{
+    padding-right: 10px;
+    border-right: 1px solid #E0E0E0;
+}
+.form{
+    background-color: #ebe5e5;
+    display: none;
+    border-radius: 5em;
+    padding: 5px;
+    right: 0px;
+    top: 2em;
+}
+#form.A{
+    display: inline-block;
+}
+.search{
+    background-color: #ebe5e5;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5em;
+}
+.logo{
+    width: 216px;
+    flex: none;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.logo img{
+    width: 100%;
+    flex-shrink: 0;
+    flex: none;
+}
+.nav-2 .nav-item a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #111111;
+}
+.nav-2 .nav-item a:hover{
+    color: #74642F;
+}
+.hamburger-icon i{
+    font-size: 2em;
+    cursor: pointer;
+}
+#nav-3{
+    left: 0px;
+    padding: 1em;
+    top: 0px;
+    height: 100vh;
+    transition: all 0.3s ease;
+    transform: translateX(-100%);
+    background-color: #f3f2ec;
+}
+#nav-3 .B{
+    transform: translateX(0%);
+}
+.nav-3 .nav-item a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #111111;
+    display: block;
+    padding: 0.5em 4em 0.5em 0em;
+}
+.nav-3 .nav-item a:hover{
+    color: #74642F;
+}
+.logo-2{
+    width: 9em;
+}
+.bi-x{
+    font-size: 2.5em;
+    cursor: pointer;
+}
+.btn-pg-wrapper{
+    justify-content: start;
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+/* --------------------------------START-CAROUSEL---------------------- */
+
+.carousel-1{
+    margin: 4em 0em;
+}
+.row-1{
+    padding: 2em 6em;
+}
+.content-area h1{
+    font-family: Prata;
+    font-size: 66px;
+    font-weight: 400;
+    line-height: 106px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #222222;
+}
+.content-area p{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #7A7A7A;
+}
+.content-area button{
+    border: 1px solid #C0C0C0;
+}
+.content-area button:hover{
+    background-color: #222222;
+}
+.content-area button:hover a{
+    color: #C0C0C0;
+}
+.content-area button a{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    text-decoration: none;
+    color: #111111;
+
+}
+
+/* --------------------------------END-CAROUSEL---------------------- */
+
+/* --------------------------------START-LIST---------------------- */
+
+.for-bg{
+    background-color: #EDEBE4;
+}
+
+.img-01{
+    width: 10em;
+    transition: all 0.2s ease;
+}
+.img-01:hover{
+    transform: translateY(-5px);
+    box-shadow: 3px 3px 10px -6px;
+}
+
+
+/* --------------------------------END-LIST---------------------- */
+
+/* --------------------------------START-FEATURED-BOOKS---------------------- */
+.section-3{
+    margin: 5em 0em 2em;
+}
+.only-heading h2{
+    font-family: Prata;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: relative;
+}
+.only-heading h3{
+    font-family: Plus Jakarta Sans;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.12em;
+    text-align: center;
+
+}
+.only-heading h2::before{
+    content: "";
+    width: 25%;
+    background-color: #E0E0E0;
+    height: 2px;
+    position: absolute;
+    left: 0px;
+    top: 25px;
+}
+.only-heading h2::after{
+    content: "";
+    width: 25%;
+    background-color: #E0E0E0;
+    height: 2px;
+    position: absolute;
+    right: 0px;
+    top: 25px;
+}
+
+
+
+.img-box01{
+    width: 16em;
+    transition: all 0.2s ease;
+    margin-bottom: 1.2em;
+}
+.img-box01:hover{
+    transform: scale(1.1);
+}
+.swiper-slide .content-box h3{
+    font-family: Prata;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.swiper-slide .content-box h3:hover{
+    color: #74642F;
+    cursor: pointer;
+}
+.swiper-slide .content-box span{
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+}
+.swiper-slide .content-box .span-2{
+    font-family: Prata;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+}
+.over:hover{
+    color: #74642F;
+    cursor: pointer;
+}
+.img-box01{
+    cursor: pointer;
+}
+.img-box01:hover .cart{
+    display: block;
+    cursor: pointer;
+}
+.cart{
+    background-color: #111111;
+    position: absolute;
+    width: 11em;
+    text-align: center;
+    top: 60%;
+    left: 2.5em;
+    padding: 0.5em 0em;
+    display: none;
+}
+.cart:hover{
+    background-color: #222222;
+}
+.cart h3{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.14em;
+    text-align: center;
+    margin-bottom: 0px;
+    text-transform:uppercase ;
+    color: #FFFFFF;
+}
+
+.swiper-link {
+    text-align: end;
+    padding: 0em 2em;
+}
+.swiper-link a{
+    text-decoration: none;
+    color: #111111;
+
+}
+
+/* --------------------------------END-FEATURED-BOOKS---------------------- */
+
+/* --------------------------------START-SELLING-BOOKS---------------------- */
+
+.for-bg-01{
+    background-color: #EDEBE4;
+    padding: 7em 1em;
+}
+
+.img-02{
+    width: 25.813em;
+    transition: all 0.2s ease;
+}
+.img-02:hover{
+    transform: scale(1.1);
+}
+.content-box01{
+   max-width:65%;
+}
+.content-box01 h2{
+    font-family: Prata;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.content-box01 .span-01{
+    font-family: Plus Jakarta Sans;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.16em;
+    text-align: left;
+    color: #888888;
+    margin-bottom: 2em;
+    display: inline-block;
+}
+.content-box01 h3{
+    font-family: Prata;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.section-6 .img-box01{
+    padding: 12px;
+}
+.content-box01 p{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #7A7A7A;
+    margin-bottom: 2em;
+}
+.content-box01 .span-02{
+    font-family: Prata;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #74642F;
+    display: block;
+    margin-bottom: 1.5em;
+}
+
+.content-box01 a{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    display: block;
+    text-decoration: none;
+    color: #111111;
+    letter-spacing: 0.02em;
+}
+
+
+
+
+/* --------------------------------END-SELLING-BOOKS---------------------- */
+
+
+/* -----------------------------HAEDING-TABS----------------------------- */
+
+ #link-02{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #111111;
+    position: relative;
+    padding-bottom: 5px;
+}
+#link-02:after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    left: 0;
+    height: 2px;
+    transition: all 0.2s ease;
+    background-color: #74642F;
+    bottom: 0;
+}
+
+#link-02:hover::after{
+    width: 100%;
+}
+.link-02{
+    border-bottom: 2px solid #74642F;
+}
+
+/* -----------------------------CLOSE-HAEDING-TABS----------------------------- */
+
+/* ------------------------------START-POPULAR-BOOKS---------------------------- */
+
+.uniqe-row{
+    border-bottom: 2px solid #E0E0E0;
+}
+
+.content-box03 h3{
+    font-family: Prata;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.content-box03 .span-03{
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+}
+.content-box03 .span-04{
+    font-family: Prata;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    
+}
+.content-box03 h3:hover , .content-box03 .span-03:hover , .content-box03 .span-04:hover{
+    color: #74642F;
+}
+
+/* ------------------------------END-POPULAR-BOOKS---------------------------- */
+
+
+/* ------------------------------START-QUOTE-OF-DAY---------------------------- */
+
+.content-box-04{
+    width: 40em;
+}
+.content-box-04 h2{
+    font-family: Prata;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.content-box-04 p{
+    font-family: Plus Jakarta Sans;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.content-box-04 span{
+    font-family: Prata;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;    
+}
+
+/* ------------------------------END-QUOTE-OF-DAY---------------------------- */
+
+/* --------------------------START-BOOK-OFFER----------------------------- */
+.for-bg-02{
+    background-color: #EDEBE4;
+    padding: 4em 0em 11em;
+}
+.content-box-05 span{
+    font-family: Plus Jakarta Sans;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.12em;
+    text-align: center;
+}
+.content-box-05 h2{
+    font-family: Prata;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.section-9{
+    margin-top: -12em;
+    margin-bottom: 10em;
+}
+
+.content-box-06 h3{
+    font-family: Prata;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;    
+}
+.content-box-06 .span-1{
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: center;    
+    color: #888888;
+}
+.content-box-06 .span-2{
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #888888;    
+}
+.content-box-06 .span-3{
+    font-family: Prata;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #74642F;
+}
+
+.content-box-06 h3:hover , .content-box-06 .span-1:hover , .content-box-06 .span-2:hover{
+    color: #74642F;
+}
+
+
+
+/* --------------------------END-BOOK-OFFER----------------------------- */
+
+/* --------------------------START-SUBSCRIBE--------------------------- */
+
+.section-10{
+    background-color: #EDEBE4;
+    padding: 7em 0em;
+    margin-bottom: 10em;
+}
+
+.content-box-07{
+    width: 65%;
+}
+
+.content-box-07 h2{
+    font-family: Prata;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-transform: capitalize;
+    text-align: left;
+}
+.content-box-08 p{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;    
+}
+.content-box-08 form{
+    border-bottom: 1px solid black;
+    display: inline-block;
+}
+.content-box-08 form input{
+    border: none;
+    padding: 0.5em;
+    background-color: #EDEBE4;
+    outline: none;
+}
+.content-box-08 form span{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-left: 1.5em;
+    cursor: pointer;
+}
+
+/* --------------------------END-SUBSCRIBE--------------------------- */
+
+/* --------------------------START-CARD-SECTION--------------------------- */
+.card{
+    background-color: #F3F2EC;
+    outline: none;
+    border: none;
+}
+.card-img{
+    transition: all 0.2s ease;
+}
+.card-img:hover{
+    transform: scale(0.95);
+}
+.card-body span{
+    font-family: Prata;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #74642F;
+}
+.card-body h2{
+    font-family: Prata;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;   
+    cursor: pointer; 
+}
+.card-footer span{
+    font-family: Plus Jakarta Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.12em;
+    text-align: left;
+    text-transform: uppercase;
+    color: #7A7A7A;    
+}
+.card-body span:hover , .card-body h2:hover , .card-footer a:hover{
+    color: #74642F;
+}
+.card-footer{
+    background-color: #F3F2EC;
+}
+.card-footer a{
+    color: #7A7A7A;
+}
+
+.btn-my{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+/* --------------------------START-CARD-SECTION--------------------------- */
+
+
+.img-03{
+    width: 19em;
+    transition: all 0.2s ease;
+}
+.img-03:hover{
+    transform: scale(1.1);
+}
+.content-box-08{
+    width: 90%;
+}
+.content-box-08 h2{
+    font-family: Prata;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.content-box-08 p{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;    
+    margin-bottom: 3.5em;
+}
+.img-box-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.img-box-wrapper .img-box-022{
+    width: 10em;
+    transition: all 0.2s ease;
+}
+.img-box-wrapper .img-box-02{
+    width: 9.5em;
+    transition: all 0.2s ease;
+}
+.img-box-wrapper .img-box-022:hover , .img-box-wrapper .img-box-02:hover{
+    transform: scale(1.1);
+    margin: 0px 1px;
+}
+
+/* --------------------------END-CARD-SECTION--------------------------- */
+
+/* -------------------------START-FOOTER------------------------------ */
+
+.logo-img{
+    width: 11em;
+}
+.content-box-09{
+
+}
+.content-box-09 h3{
+    font-family: Prata;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.content-box-09 .link-last{
+
+}
+.content-box-09 .link-last a{
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #111111; 
+    transition: all 0.2s ease;   
+}
+
+.content-box-09 .link-last a:hover{
+    transform: translateX(3px);
+    color: #74642F;
+}
+
+.uniqe{
+    border-top: 1px solid #E0E0E0;
+}
+
+
+
+
+
+
+/* -------------------------END-FOOTER------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------- */
+
+
+
+@media screen and (max-width:1218px){
+    .content-box01 h2{
+        font-size: 40px;
+    }
+    .content-box-07 h2{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:1199px){
+    .content-area h1{
+        font-size: 50px;
+    }
+    .content-box03 h3{
+        font-size: 20px;
+    }
+    .content-box-07 h2{
+        font-size: 38px;
+    }
+    .content-box-09  h3{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:1019px){
+    .content-box01 h2{
+        font-size: 32px;
+        line-height: 33px;
+    }
+    .content-box01 h3{
+        font-size: 25px;
+    }
+    .card-body span{
+        font-size: 12px;
+    }
+    .card-body h2{
+        font-size: 16px; 
+        line-height: 30px; 
+    }
+    .card-footer span{
+        font-size: 12px;   
+    }
+}
+@media screen and (max-width:991px){
+    .content-area h1{
+        font-size: 40px;
+    }
+    .img-box{
+        display: none;
+    }
+    .only-heading h2::before{
+        width: 20%;
+    }
+    .only-heading h2::after{
+        width: 20%;
+    }
+    .content-box-07 {
+        width: 100%;
+    }
+    .content-box-07 h2{
+        font-size: 40px;
+    }
+    .content-box-099 h3,.content-box-099 .link-last a{
+        text-align: center;
+    }
+    .content-box-099{
+        margin-bottom: 2em;
+    }
+    .content-box-09{
+        margin-bottom: 2em;
+    }
+}
+@media screen and (max-width:895px){
+    .content-box01 h2{
+        font-size: 30px;
+    }
+    .content-box01 h3{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width:770px){
+    .content-box01 h2 {
+        font-size: 28px;
+    }
+    .content-box-04 h2{
+        font-size: 44px;
+    }
+    .content-box-04 p{
+        font-size: 24px;
+    }
+    .content-box-04 span{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:767px){
+    .content-area h1{
+        font-size: 40px;
+        line-height: 35px;
+    }
+    .content-area p{
+        line-height: 30px;
+    }
+    .only-heading h2{
+        font-size: 40px;
+    }
+    .only-heading h2::before{
+        width: 13%;
+    }
+    .only-heading h2::after{
+        width: 13%;
+    }
+    .content-box01{
+        max-width:55%;
+        padding-left: 3em;
+     }
+     .el{
+        margin-bottom: 5em;
+     }
+     .card-body span{
+        font-size: 14px;
+        margin-bottom: 1em;
+        display: block;
+    }
+    .card-body h2{
+        font-size: 28px; 
+        line-height: 30px; 
+    }
+    .card-footer span{
+        font-size: 16px;   
+    }
+    .card-footer a{
+    margin: 0em 0.5em;
+
+    }
+    .content-box-08 h2{
+        font-size: 40px;    
+    }
+    .content-box-08 p{
+        font-size: 16px;
+    }
+    .content-box-09  h3{
+        text-align: center;
+    }
+    .content-box-09 .link-last a{
+        text-align: center;
+    }
+    .content-box-0{
+        margin-bottom: 0px;
+    }
+}
+@media screen and (max-width:574px){
+    .row-1{
+        padding: 3em 4em;
+    }
+    .content-area h1{
+        font-size: 30px;
+        line-height: 28px;
+    }
+    .content-area p{
+        line-height: 28px;
+    }
+    .only-heading h2{
+        font-size: 28px;
+    }
+    .swiper-link{
+        text-align: start;
+    }
+    .content-box01{
+        width:72%;
+        padding-left: 0px;
+     }
+     .content-box-04 h2{
+        font-size: 35px;
+    }
+    .content-box-04 p{
+        font-size: 18px;
+        line-height: 34px;
+    }
+    .content-box-04 span{
+        font-size: 16px;
+    }
+    .content-box-05 h2{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:441px){
+    .logo{
+        width: 150px;
+    }
+    .content-box01{
+        max-width: 100%;
+    }
+    .content-box01 h2{
+        font-size: 25px;
+        line-height: normal;
+        margin-bottom: 1.5em;
+    }
+    .content-box01 h3{
+        font-size: 18px;
+        line-height: normal;
+    }
+    .card-body span{
+        font-size: 13px;
+        margin-bottom: 1em;
+        display: block;
+    }
+    .card-body h2{
+        font-size: 20px; 
+        line-height: 30px; 
+    }
+    .card-footer span{
+        font-size: 15px;   
+    }
+    .content-box-08 h2{
+        font-size: 30px;    
+    }
+    .content-box-08 p{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:375px){
+    .row-1{
+        padding: 3em 3em;
+    }
+    .content-box-05 h2{
+        font-size: 35px;
+    }
+    .content-box-08 form span {
+        margin-left: 0em;
+    }
+    .content-box-08 form input {
+        width: 73%;
+    }
+}
+@media screen and (max-width:320px){
+    .row-1{
+        padding: 3em 2em;
+    }
+    .content-area p{
+    font-size: 14px;
+    }
+    .content-box-07 h2{
+        font-size: 38px;
+    }
+    .content-box-08 h2{
+        font-size: 30px;    
+        line-height: 40px;
+    }
+    .content-box-08 p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+
+
+
+
+
